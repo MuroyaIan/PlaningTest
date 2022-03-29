@@ -9,8 +9,5 @@
 UCLASS()
 class PLANINGTEST_API UMyBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
 {
-	GENERATED_BODY()
-	
-	UFUNCTION(BlueprintCallable)
-	static void SetMaterialInstanceStaticSwitchParameterValue(UMaterialInstance* Instance, FName ParameterName, bool Value);
+	GENERATED_BODY()	
 };
